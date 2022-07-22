@@ -202,18 +202,37 @@ body {
             font-weight: 400;
             font-size: 14px;
             line-height: 1.71;
-            color: #ffffff;
     }
 
     .contacts_down {
-        color: rgb(255, 255, 255, 60%);
+             font-weight: 400;
+             font-size: 14px;
+             line-height: 1.17;
+             color: #fff;
+    }
+    
+    .contacts_down_mail {
+             font-weight: 400;
+             font-size: 14px;
+             line-height: 1.71;
+             letter-spacing: 0.03em;
+             color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .contacts_down_tel {
+             font-weight: 400;
+             font-size: 14px;
+             line-height: 1.71;
+             letter-spacing: 0.03em;
+             color: rgba(255, 255, 255, 0.6);
     }
 
     .contacts_down:hover,
-    .contacts_downL:focus {
-        color: var(--accent_color);
+    .contacts_down_mail:hover,
+    .contacts_down_tel:hover {
+        color: var(--accent_color)
     }
-
+    
     /* Портфолио */
 
     .button_portfolio {
@@ -249,5 +268,4 @@ body {
             letter-spacing: 0.03em;
             color: var(--main_text_color)
     }
-
     
